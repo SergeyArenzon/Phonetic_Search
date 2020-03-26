@@ -51,27 +51,27 @@ std::map<std::string, vector<std::string>> mistakesDictionary()
     spelling_mistakes["A"] = vector<string>{"a"};
     spelling_mistakes["a"] = vector<string>{"A"};
 
-    spelling_mistakes["B"] = vector<string>{"b"};
+    spelling_mistakes["B"] = vector<string>{"b","P","p", "F", "f"};
 
-    spelling_mistakes["C"] = vector<string>{"c"};
+    spelling_mistakes["C"] = vector<string>{"c", "k","K","q","Q"};
 
-    spelling_mistakes["D"] = vector<string>{"d"};
+    spelling_mistakes["D"] = vector<string>{"d", "t", "T"};
 
     spelling_mistakes["e"] = vector<string>{"E"};
     spelling_mistakes["E"] = vector<string>{"e"};
 
-    spelling_mistakes["F"] = vector<string>{"f"};
+    spelling_mistakes["F"] = vector<string>{"f", "b", "B", "p", "P"};
 
-    spelling_mistakes["G"] = vector<string>{"g"};
+    spelling_mistakes["G"] = vector<string>{"g", "j", "J"};
 
     spelling_mistakes["H"] = vector<string>{"h"};
     spelling_mistakes["h"] = vector<string>{"H"};
 
-    spelling_mistakes["I"] = vector<string>{"i"};
+    spelling_mistakes["I"] = vector<string>{"i", "y","Y"};
 
-    spelling_mistakes["J"] = vector<string>{"j"};
+    spelling_mistakes["J"] = vector<string>{"j", "g","G"};
 
-    spelling_mistakes["K"] = vector<string>{"k"};
+    spelling_mistakes["K"] = vector<string>{"k","c","C","q","Q"};
 
     spelling_mistakes["L"] = vector<string>{"l"};
     spelling_mistakes["l"] = vector<string>{"L"};
@@ -82,7 +82,7 @@ std::map<std::string, vector<std::string>> mistakesDictionary()
     spelling_mistakes["N"] = vector<string>{"n"};
     spelling_mistakes["n"] = vector<string>{"N"};
 
-    spelling_mistakes["O"] = vector<string>{"o"};
+    spelling_mistakes["O"] = vector<string>{"o", "u","U"};
 
     spelling_mistakes["P"] = vector<string>{"p", "B", "F", "b", "f"};
 
@@ -91,22 +91,22 @@ std::map<std::string, vector<std::string>> mistakesDictionary()
     spelling_mistakes["R"] = vector<string>{"r"};
     spelling_mistakes["r"] = vector<string>{"R"};
 
-    spelling_mistakes["S"] = vector<string>{"s"};
+    spelling_mistakes["S"] = vector<string>{"s","z","Z"};
 
-    spelling_mistakes["T"] = vector<string>{"t"};
+    spelling_mistakes["T"] = vector<string>{"t", "d","D"};
 
-    spelling_mistakes["U"] = vector<string>{"u"};
+    spelling_mistakes["U"] = vector<string>{"u","o","O"};
 
-    spelling_mistakes["V"] = vector<string>{"v"};
+    spelling_mistakes["V"] = vector<string>{"v", "w","W"};
 
-    spelling_mistakes["W"] = vector<string>{"w"};
+    spelling_mistakes["W"] = vector<string>{"w", "v", "V"};
 
     spelling_mistakes["X"] = vector<string>{"x"};
     spelling_mistakes["x"] = vector<string>{"X"};
 
-    spelling_mistakes["Y"] = vector<string>{"y"};
+    spelling_mistakes["Y"] = vector<string>{"y","i","I"};
 
-    spelling_mistakes["Z"] = vector<string>{"z"};
+    spelling_mistakes["Z"] = vector<string>{"z", "s", "S"};
 
     
     return spelling_mistakes;
