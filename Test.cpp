@@ -178,11 +178,12 @@ TEST_CASE("double wrong letters"){
 string text10 = "Vw BfP";
 string text11 = "abcdefghijklmnopqrstuvwxyz";
 string text12 = "abcdefghijklmnopq";
-
+string text13 = "Vw B";
 
 TEST_CASE("ofek test"){
     CHECK(phonetic::find(text10, "wv").compare("Vw") == 0);
     CHECK(phonetic::find(text11, "ABcDEFGHIJKLMNOPQRSTUVWXYZ").compare("abcdefghijklmnopqrstuvwxyz") == 0); 
     CHECK(phonetic::find(text12, "ABCDEFGHIJKLMNOPQ").compare("abcdefghijklmnopq")==0); 
-
+    CHECK( phonetic::find(text10, "PPf") == string("BfP"));
+    CHECK( phonetic::find(text13, "P") == string("B"));
 }

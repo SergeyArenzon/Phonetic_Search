@@ -84,7 +84,7 @@ std::map<std::string, vector<std::string>> mistakesDictionary()
 
     spelling_mistakes["O"] = vector<string>{"o"};
 
-    spelling_mistakes["P"] = vector<string>{"p"};
+    spelling_mistakes["P"] = vector<string>{"p", "B", "F", "b", "f"};
 
     spelling_mistakes["Q"] = vector<string>{"q"};
 
