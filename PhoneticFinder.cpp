@@ -209,7 +209,7 @@ string phonetic::find(string text, string word)
             }
         }
     }
-    throw exception();
+    throw string("Not Found!");
 }
 
 // int main()

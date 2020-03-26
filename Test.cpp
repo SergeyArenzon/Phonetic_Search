@@ -177,8 +177,8 @@ TEST_CASE("double wrong letters"){
 
 string text10 = "Vm BfP";
 
-TEST_CASE("my test"){
-    CHECK(phonetic::find(text10, "wv").compare("Vw") == 0);
+// TEST_CASE("my test"){
+//     CHECK(phonetic::find(text10, "wv").compare("Vw") == 0);
 
 
-}
+// }
