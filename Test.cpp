@@ -62,23 +62,23 @@ TEST_CASE("random words"){
 string text2 = "I vill, jo!.";
 
 TEST_CASE("exception check"){
-CHECK_THROWS_WITH(phonetic::find(text2, "todfghgfhdgday"),"Not Found!");
-CHECK_THROWS_WITH(phonetic::find(text2, "villi"),"Not Found!");
-CHECK_THROWS_WITH(phonetic::find(text2, "g"),"Not Found!");
-CHECK_THROWS_WITH(phonetic::find(text2, "3"),"Not Found!");
-CHECK_THROWS_WITH(phonetic::find(text2, "25"),"Not Found!");
-CHECK_THROWS_WITH(phonetic::find(text2, "oi"),"Not Found!");
-CHECK_THROWS_WITH(phonetic::find(text2, "Not Found!"),"Not Found!");
-CHECK_THROWS_WITH(phonetic::find(text2, "jO"),"Not Found!");            
-CHECK_THROWS_WITH(phonetic::find(text2, ""),"Not Found!");
-CHECK_THROWS_WITH(phonetic::find(text2, " "),"Not Found!");
-CHECK_THROWS_WITH(phonetic::find(text2, "."),"Not Found!");
-CHECK_THROWS_WITH(phonetic::find(text2, "!"),"Not Found!");
-CHECK_THROWS_WITH(phonetic::find(text2, ","),"Not Found!");    
-CHECK_THROWS_WITH(phonetic::find(text2, "R"),"Not Found!");
-CHECK_THROWS_WITH(phonetic::find(text2, "V"),"Not Found!");
-CHECK_THROWS_WITH(phonetic::find(text2, "II"),"Not Found!");
-CHECK_THROWS_WITH(phonetic::find(text2, "  "),"Not Found!");        //44
+CHECK_THROWS_AS(phonetic::find(text2, "todfghgfhdgday"),std::exception);
+CHECK_THROWS_AS(phonetic::find(text2, "villi"),std::exception);
+CHECK_THROWS_AS(phonetic::find(text2, "g"),std::exception);
+CHECK_THROWS_AS(phonetic::find(text2, "3"),std::exception);
+CHECK_THROWS_AS(phonetic::find(text2, "25"),std::exception);
+CHECK_THROWS_AS(phonetic::find(text2, "oi"),std::exception);
+CHECK_THROWS_AS(phonetic::find(text2, ""),std::exception);
+CHECK_THROWS_AS(phonetic::find(text2, "jO"),std::exception);            
+CHECK_THROWS_AS(phonetic::find(text2, ""),std::exception);
+CHECK_THROWS_AS(phonetic::find(text2, " "),std::exception);
+CHECK_THROWS_AS(phonetic::find(text2, "."),std::exception);
+CHECK_THROWS_AS(phonetic::find(text2, "!"),std::exception);
+CHECK_THROWS_AS(phonetic::find(text2, ","),std::exception);    
+CHECK_THROWS_AS(phonetic::find(text2, "R"),std::exception);
+CHECK_THROWS_AS(phonetic::find(text2, "V"),std::exception);
+CHECK_THROWS_AS(phonetic::find(text2, "II"),std::exception);
+CHECK_THROWS_AS(phonetic::find(text2, "  "),std::exception);        //44
 
 
 }
