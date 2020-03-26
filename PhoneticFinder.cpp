@@ -86,6 +86,8 @@ std::map<std::string, vector<std::string>> mistakesDictionary()
 
     spelling_mistakes["P"] = vector<string>{"p"};
 
+    spelling_mistakes["Q"] = vector<string>{"q"};
+
     spelling_mistakes["R"] = vector<string>{"r"};
     spelling_mistakes["r"] = vector<string>{"R"};
 
@@ -95,9 +97,9 @@ std::map<std::string, vector<std::string>> mistakesDictionary()
 
     spelling_mistakes["U"] = vector<string>{"u"};
 
-    //spelling_mistakes["V"] = vector<string>{"v"};
+    spelling_mistakes["V"] = vector<string>{"v"};
 
-    //spelling_mistakes["W"] = vector<string>{"w"};
+    spelling_mistakes["W"] = vector<string>{"w"};
 
     spelling_mistakes["X"] = vector<string>{"x"};
     spelling_mistakes["x"] = vector<string>{"X"};
